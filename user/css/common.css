@@ -1,0 +1,277 @@
+*{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style: none;
+}
+body{
+	width: 100%;
+	height: 100%;
+	/* height: auto;
+	min-height: 100%;
+	position: relative; */
+}
+.kkk{
+	margin-bottom: 10px;
+}
+/* 导航条 */
+.mynav{
+	background-color: #fff;
+	border: none;
+	margin-bottom: 0;
+}
+#mymenu > li:hover a{
+	color: #fff;
+	background-color: #EA0000;
+}
+/* brand 容器 */
+.mybrand{
+	padding:0;
+}
+/* logo图片 */
+.mylogo{
+	height: 40px;
+}
+/* 轮播图 */
+.mybanner{
+	margin-top: 50px;
+}
+.mybanner li{
+	background-color: #46A3FF;
+	border: 0;
+}
+.mybanner img{
+	width: 100%;
+}
+
+/* 街区新闻/入驻机构/街区活动  共用类样式 */
+.parts{
+	color: #aaa;
+	font-size: 12px;
+}
+.title{
+	padding: 15px 0;
+	font-size: 18px;
+}
+/* 街区新闻 */
+.newsImg{
+	width: 100%;
+}
+.firstNews{
+	margin-bottom: 20px;
+}
+.firstNews > div:first-child{
+	font-size: 18px;
+	font-weight: 900;
+	color: #000;
+	margin: 5px 10px;
+}
+.firstNews > div:last-child{
+	height: 50px;
+	overflow: hidden;
+}
+.newsList > li{
+	margin: 5px 10px;
+}
+/* 入驻机构 */
+.company img{
+	width: 90px;
+	border: 3px solid #ddd;
+}
+.company > div:hover >img{
+	border-color: #EA0000;
+}
+.company > div{
+	margin-bottom: 15px;
+}
+.companyText{
+	display: inline-block;
+	margin-left: 10px;
+	width: 70%;
+}
+.companyName{
+	font-size: 14px;
+	color: #555;
+}
+/* 街区活动 */
+.activity{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+.imgChange{
+	position: relative;
+}
+.imgChange img{
+	position: absolute;
+}
+.acts1{
+	margin-bottom: 10px;
+	overflow: hidden;
+	padding: 0px;
+}
+.actImg01{
+	width: 100%;
+}
+.acts2{
+	overflow: hidden;
+	padding: 0px;
+}
+.acts2 img{
+	width: 100%;
+}
+.imgContent{
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 100px;
+}
+.imgContent a{
+	color: #fff;
+	text-decoration: underline;
+}
+/* 用于做4个图片的动画 */
+/* .imgOver{
+	animation:mymove1 1s;
+	animation-fill-mode : forwards;
+}
+@keyframes mymove1
+{
+	from {left:0px;}
+	to {left:-100%;}
+}
+.imgOut{
+	animation:mymove2 1s;
+	animation-fill-mode : forwards;
+}
+@keyframes mymove2
+{
+	from {left:-100%;}
+	to {left:0;}
+} */
+/* 底部 */
+footer{
+	width: 100%;
+	height: 50px;
+	/* position: absolute; */ /* 给个定位，否则数据过少的话，页面撑不满，该标签会沉不到最下面 */
+	/* position: fixed;
+	bottom: 0; */
+}
+footer div{
+	background-color: #000;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 12px;
+	color: #fff;
+}
+
+/* 手机端样式 */
+/*@media screen and (max-width: 768px){ */
+	/* 入驻机构 */
+	/* .compHidden{
+		display: none;
+	} */
+/* }  */
+
+
+/* 子页面 */
+/* 企业文化 */
+.culture{
+	width: 100%;
+	height: 100px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	background-image: url(../images/liebiao_01.jpg);
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	line-height: 100px; 
+}
+/* 左侧导航 */
+.myType{
+	height: 50px;
+	background-color: #187bca!important;
+	line-height: 30px;
+}
+.myType a{
+	color: #fff;
+}
+
+/* 右侧导航 */
+.myPanelHead{
+	background-color: #fff!important;
+}
+.myBreadcrumb{
+	margin-bottom: 0;
+	background-color: #fff!important;
+}
+.myBreadcrumb a{
+	color: #777;
+	font-size: 14px;
+	font-weight: 200;
+}
+.myBreadcrumb li:nth-of-type(2):before{
+	content: ">";
+	color: #777;
+}
+
+.listImg{
+	width: 150px;
+	height: 100px;
+	float: left;
+	margin-right: 10px;
+}
+.listContent{
+	width: 100%;
+	color:#aaa;
+	font-size: 12px;
+	text-indent:2em;/* 首行缩进2个字符 */
+	padding: 10px 20px 30px 20px;
+	overflow: hidden;/* 清除浮动 */
+}
+.topicDate{
+	margin-left: 160px;
+	color:#777;
+}
+/* 入驻机构 */
+.companyList{
+	height: 130px;
+}
+.companyImg{
+	width: 90px;
+	height: 90px;
+	border: 3px solid #ddd;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
